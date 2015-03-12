@@ -1,0 +1,80 @@
+.center { text-align: center; }
+
+em {color: #4D7CA8; }
+em.noi {font-style: normal; }
+
+.nav-side ul {
+  list-style: none;
+  margin: 0;
+  padding: 3px 5px;
+}
+
+.nav-side li {
+  list-style: none;
+  padding: 3px 5px;
+  margin: 3px 0;
+  border-bottom: dashed 1px #E3EBEF;
+}
+
+.nav-side li a:hover {
+  text-decoration: none;
+}
+
+.form {
+  padding: 5px;
+}
+
+.form .row {
+  margin-bottom: 10px;
+  display: block;
+}
+.form label {font-weight: bold; }
+
+.form label, .form input[type='text'], .form textarea, .form section {
+  display: block;
+}
+
+.form input:not([type='text']){
+  display: inline;
+  width: auto;
+  margin: auto 5px;
+}
+
+.form input[type='text'], .form textarea {
+  width: 400px;
+}
+
+.form input[type='button'], .form input[type='submit'], .form textarea {
+  min-width: 120px;
+}
+
+
+
+.form.inline label, .form.inline input, .form.inline textarea, .form.inline section {
+  display: inline-block;
+}
+
+.form.inline.lable10 label { min-width: 100px; }
+.form.inline.lable15 label { min-width: 150px; }
+.form.inline.lable20 label { min-width: 200px; }
+
+.flashbox div {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+.flashbox a {text-decoration:underline; }
+
+.flashbox .info {
+  color: #31708f;
+  background-color: #F9FBFC;
+  border: 1px solid #DFE4FF;
+}
+.flashbox .info a {color:#038BFF;}
+
+.flashbox .warn {
+  color: #A71414;
+  background-color: #fcf8e3;
+  border: 1px solid #FCE3E3;
+}
+.flashbox .warn a {color:#FF2703;}

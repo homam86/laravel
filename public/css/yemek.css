@@ -1,0 +1,13 @@
+.yemek .options {}
+
+.yemek.options .opt-wrap {
+  display: inline-block;
+  min-width: 220px;
+  margin: 3px;
+  padding: 7px 3px;
+  border: 1px solid #E0E0E0;
+}
+
+.yemek.options .opt-wrap:hover {
+  background-color: #F7F7F7;
+}
